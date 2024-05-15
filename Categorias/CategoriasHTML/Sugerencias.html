@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es-ec">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Sugerencias de usuarios</title>
+   <link rel="icon" href="/Imagenes/Logo/logo.png" />
+   <meta name="description" content="Sugerencias que los usuarios nos daran :D" />
+   <link rel="stylesheet" href="/Categorias/CategoriasCSS/Formulario.css" />
+</head>
+
+<body>
+   <div class="ColorPagina">
+      <header>
+         <h1 class="EncabezadoForm">
+            ¿Quieres dejarnos alguna sugerencia de algún juego?
+         </h1>
+      </header>
+      <div>
+         <p>
+            Sería de mucha utilidad que nos recomiendes juegos para poder compartirlos con la comunidad y así muchos más
+            usuarios puedan conocer y descubrir mundos de aventuras a través de una consola o PC. Puedes recomendarnos
+            tus juegos favoritos llenando el siguiente formulario:
+         </p>
+      </div>
+      <div class="ContenedorForm">
+         <img class="ImagenForm" src="/Imagenes/Formulario/formu.png" alt="Imagen parte del formulario" />
+         <form class="formu">
+            <fieldset>
+               <legend>¿Tienes un juego que recomendarnos?
+
+               </legend>
+               <label for="IDGAMER">
+                  ID-Gamer:
+                  <input type="text" name="IDgamer" id="IDGAMER" />
+               </label>
+               <br />
+               <br />
+               <label for="EUsuario">
+                  Edad:
+                  <input type="number" name="EdadUsuario" id="EUsuario" min="18" />
+               </label>
+               <br />
+               <br />
+               <label for="CEmail">
+                  Correo Gamer:
+                  <input type="email" name="CorreoEmail" id="CEmail" />
+               </label>
+               <br />
+               <br />
+               <label for="ps5">
+                  Plataformas: PlayStation 5
+                  <input type="radio" name="plataforma" value="PS5" id="ps5" />
+               </label>
+
+               <label for="xbox">
+                  Xbox
+                  <input type="radio" name="plataforma" value="Xbox" id="xbox" />
+               </label>
+
+               <label for="pcgamer">
+                  PC Gamer
+                  <input type="radio" name="plataforma" value="PC-Gamer" id="pcgamer" />
+               </label>
+               <br />
+               <br />
+               <label for="COMENTARIOS">
+                  ¿Que juegos nos recomiendas para subirlo en nuestro blog?
+               </label>
+               <br />
+               <textarea cols="50" rows="5" name="comentarios" id="COMENTARIOS"></textarea>
+               <br />
+               <label for="IMAGENjuego">
+                  <input type="file" name="ImagenJuego" id="IMAGENjuego" />
+                  <br />
+                  <br />
+               </label>
+            </fieldset>
+            <input class="button" type="submit" value="Enviar" />
+            <input class="button" type="reset" value="Resetear" />
+         </form>
+      </div>
+      <br />
+      <br />
+      <footer>
+         Gracias por tu sugerencia :D
+         <a href="/index.html">Volver a la Página de Inicio</a>
+         <br />
+         <br />
+
+         <a href="/Categorias/CategoriasHTML/PS5.html">Ir a la Categoría PS5</a>
+         <a href="/Categorias/CategoriasHTML/XBOX.html">Ir a la Categoría XBOX</a>
+         <a href="/Categorias/CategoriasHTML/PCGamer.html">Ir a la Categoría PC</a>
+      </footer>
+   </div>
+</body>
+
+</html>
